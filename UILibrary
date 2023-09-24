@@ -832,7 +832,7 @@ function Kavo.CreateLib(kavName, themeList)
                 TextBox.Size = UDim2.new(0, 150, 0, 18)
                 TextBox.ZIndex = 99
                 TextBox.ClearTextOnFocus = false
-                TextBox.Font = Enum.Font.Gotham
+                TextBox.Font = Enum.Font.Fondamento
                 TextBox.PlaceholderColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 19, themeList.SchemeColor.g * 255 - 26, themeList.SchemeColor.b * 255 - 35)
                 TextBox.PlaceholderText = "Type here!"
                 TextBox.Text = ""
@@ -2603,7 +2603,7 @@ function Kavo.CreateLib(kavName, themeList)
 				label.ClipsDescendants = true
             	label.Text = title
            		label.Size = UDim2.new(0, 352, 0, 33)
-	            label.Font = Enum.Font.Gotham
+	            label.Font = Enum.Font.Fondamento
 	            label.Text = "  "..title
 	            label.RichText = true
 	            label.TextColor3 = themeList.TextColor
