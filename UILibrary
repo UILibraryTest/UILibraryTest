@@ -2608,6 +2608,7 @@ viewInfo.Visible = false
 	            label.Font = Enum.Font.Merriweather
 	            label.Text = "  "..title
 	            label.RichText = true
+label.TextScaled = true
 	            label.TextColor3 = themeList.TextColor
 	            Objects[label] = "TextColor3"
 	            label.TextSize = 14.000
