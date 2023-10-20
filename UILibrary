@@ -2612,7 +2612,7 @@ label.TextScaled = true
 	            label.TextColor3 = themeList.TextColor
 	            Objects[label] = "TextColor3"
 	            label.TextSize = 10.000
-	            label.TextXAlignment = Enum.TextXAlignment.Left
+	            label.TextXAlignment = Enum.TextXAlignment.Center
 	            
 	           	UICorner.CornerRadius = UDim.new(0, 4)
                 UICorner.Parent = label
