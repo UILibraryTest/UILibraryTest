@@ -409,6 +409,7 @@ function Kavo.CreateLib(kavName, themeList)
         tabButton.Font = Enum.Font.Merriweather
         tabButton.Text = tabName
         tabButton.TextColor3 = themeList.TextColor
+	tabButton.TextXAlignment = Enum.TextXAlignment.Left
         Objects[tabButton] = "TextColor3"
         tabButton.TextSize = 14.000
         tabButton.BackgroundTransparency = 1
