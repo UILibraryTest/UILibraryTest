@@ -485,7 +485,7 @@ function Kavo.CreateLib(kavName, themeList)
 	    if hidden then
 		sectionHead.Visible = false
 	    else
-		sectionHead.Visible = true
+		sectionHead.Visible = false
 	    end
 
             sectionFrame.Name = "sectionFrame"
